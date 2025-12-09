@@ -1,9 +1,9 @@
 baseURL = 'https://sandray-5.github.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Sandra's Galaxy'
 theme = "PaperMod"
 
-# --- 顶级配置 Start ---
+# 配置
 [params]
   # 避免与extend_head.html冲突
   math = false
@@ -13,6 +13,22 @@ theme = "PaperMod"
   dateFormat = "2006-01-02" # 设置日期格式
   ShowReadingTime = true    # 显示阅读时间
   ShowWordCount = true      # 显示字数
+
+  # --- personnal information
+  # 首页显示的个人简介
+  [params.homeInfoParams]
+    Title = "Hi there 👋"
+    Content = "Hi, I'm Sandra. Sharing bits of tech and life. Happy you're here."
+
+  # 社交链接 (Social Icons)
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/SandraY-5"
+  [[params.socialIcons]]
+    name = "email"
+    url = "sandraxingyan@gmail.com"
+
+
 
 [markup]
   [markup.goldmark]
