@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/about.md",
+                "file": "content/Tech/content-test/index.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "about"
+              "title": "index"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/about.md",
+                "file": "content/Tech/content-test/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "about 的反向链接列表"
+              "title": "index 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/about.md",
+                "file": "content/Tech/content-test/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "about 的出链列表"
+              "title": "index 的出链列表"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/about.md",
+                "file": "content/Tech/content-test/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "about 的大纲"
+              "title": "index 的大纲"
             }
           }
         ]
@@ -171,26 +171,33 @@
   },
   "active": "8257bce09db6057d",
   "lastOpenFiles": [
-    "static/favicon.png",
-    "static/favicon.jpg",
-    "static/favicon:.png.png",
-    "static/c136bb291dba06784e7df0b1cdb011b9.jpg",
+    "layouts/partials/comments.html",
+    "layouts/comments.html",
+    "public/life/brush-lettering-01/MapChart_Map_hu_852ce702a5342fd2.png",
+    "resources/_gen/images/life/brush-lettering-01/MapChart_Map_hu_852ce702a5342fd2.png",
+    "public/life/brush-lettering-01/MapChart_Map_hu_7684ffb7ae520054.png",
+    "resources/_gen/images/life/brush-lettering-01/MapChart_Map_hu_7684ffb7ae520054.png",
+    "public/life/brush-lettering-01/MapChart_Map_hu_147bdcfb230c25e6.png",
+    "resources/_gen/images/life/brush-lettering-01/MapChart_Map_hu_147bdcfb230c25e6.png",
+    "public/life/brush-lettering-01/MapChart_Map_hu_859cf428f917ac8c.png",
+    "public/life/brush-lettering-01/MapChart_Map_hu_d2a0d74262478eac.png",
+    "resources/_gen/images/life/brush-lettering-01/MapChart_Map_hu_d2a0d74262478eac.png",
+    "resources/_gen/images/life/brush-lettering-01/MapChart_Map_hu_859cf428f917ac8c.png",
+    "resources/_gen/images/life/brush-lettering-01",
+    "resources/_gen/images/life",
+    "resources/_gen/images",
+    "resources/_gen",
+    "resources",
+    "assets/custom.css",
+    "assets/css/extended",
+    "assets/css",
     "content/search.md",
+    "content/archives.md",
     "content/about.md",
-    "未命名文件夹",
-    "未命名.md",
-    "public/assets/js/search.2826037ddab446009aa4dc907d6f13e5fe42eaff23f43abcba31285b991e9c6d.js",
-    "public/assets/js",
-    "public/search/index.html",
-    "public/search",
-    "public/未命名/index.html",
-    "public/未命名",
+    "public/archives/index.html",
+    "content/Tech/content-test/index.md",
     "content/Tech/hello-world/index.md",
-    "public/index.json",
-    "public/tags/tech/page/1/index.html",
-    "public/tags/tech/page/1",
-    "content/Life/brush-lettering-01/index.md",
-    "content/Life/brush-lettering-01/MapChart_Map.png",
-    "public/life/brush-lettering-01/MapChart_Map.png"
+    "未命名.md",
+    "content/Life/brush-lettering-01/index.md"
   ]
 }

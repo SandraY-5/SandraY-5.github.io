@@ -5,37 +5,62 @@ theme = "PaperMod"
 
 # 配置
 [params]
+  # 1. Basic setting
+  env = "production"
   # 避免与extend_head.html冲突
   math = false
-  # --- 强制主页显示这两个分类 ---
-  mainSections = ["tech", "life"]
-  # --- 其他界面美化设置 (可选) ---
+  title = "Sandra's Galaxy"
+  description = "Statistics & Life"
+  # author = "Sandra"
+
+  # 2. Page Function
+  ShowToc = true          # 显示目录
+  TocOpen = true          # 默认展开目录
+  ShowCodeCopyButtons = true # 显示代码复制按钮 
   dateFormat = "2006-01-02" # 设置日期格式
   ShowReadingTime = true    # 显示阅读时间
   ShowWordCount = true      # 显示字数
 
-  # --- personnal information
-  # 首页显示的个人简介
-  [params.homeInfoParams]
-    Title = "Hi there 👋"
-    Content = "Hi, I'm Sandra. Sharing bits of tech and life. Happy you're here."
+  # 3. Sections
+  mainSections = ["tech", "life"] # 对应content下面两个文件夹
 
-  # 社交链接 (Social Icons)
-  [[params.socialIcons]]
-    name = "github"
-    url = "https://github.com/SandraY-5"
-  [[params.socialIcons]]
-    name = "email"
-    url = "https://sandray-5.github.io/about/"
-
-  # --- 新增：强制指定图标位置 ---
+  # 4. favicon
   [params.assets]
     favicon = "favicon.png"
     favicon16x16 = "favicon.png"
     favicon32x32 = "favicon.png"
     apple_touch_icon = "favicon.png"
 
+  # 5. comment
+  [params.comments]
+    provider = "giscus"
+  
+  # 6. Giscus setting
+  [params.giscus]
+    repo = "SandraY-5/SandraY-5.github.io"
+    repoID = "R_kgDOQlM_dw"
+    category = "General"
+    categoryID = "DIC_kwDOQlM_d84Czksp"
+    mapping = "url"
+    strict = "0"
+    reactionsEnabled = "1"
+    emitMetadata = "0"
+    inputPosition = "bottom"
+    theme = "light"
+    lang = "zh-CN"
 
+  # 7. bio
+  [params.homeInfoParams]
+    Title = "Hi there 👋"
+    Content = "Hi, I'm Sandra. Sharing bits of tech and life. Happy you're here."
+
+  # 8. social Icons
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/SandraY-5"
+  [[params.socialIcons]]
+    name = "email"
+    url = "https://sandray-5.github.io/about/"
 
 [markup]
   [markup.goldmark]
@@ -50,6 +75,8 @@ theme = "PaperMod"
       [markup.goldmark.extensions.passthrough.delimiters]
         block = [['\[', '\]'], ['$$', '$$']]
         inline = [['\(', '\)'], ['$', '$']]
+# --- End of [params] ---
+
 
 # --- 导航栏配置 (Menu) ---
 [menu]
@@ -73,6 +100,11 @@ theme = "PaperMod"
     name = "Search"
     url = "/search/"
     weight = 40
+  [[menu.main]]
+    identifier = "archives"
+    name = "Archive"  # 或者叫 "Archive"
+    url = "/archives/"
+    weight = 50        # 排在 Search 后面
 
 
 [outputs]
