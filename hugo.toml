@@ -1,0 +1,56 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = "PaperMod"
+
+# --- 顶级配置 Start ---
+[params]
+  # 避免与extend_head.html冲突
+  math = false
+  # --- 强制主页显示这两个分类 ---
+  mainSections = ["tech", "life"]
+  # --- 其他界面美化设置 (可选) ---
+  dateFormat = "2006-01-02" # 设置日期格式
+  ShowReadingTime = true    # 显示阅读时间
+  ShowWordCount = true      # 显示字数
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
+  # 关键修复：确保 Goldmark 不会转义 $ 符号
+  [markup.goldmark.extensions]
+    [markup.goldmark.extensions.passthrough]
+      enable = true
+      [markup.goldmark.extensions.passthrough.delimiters]
+        block = [['\[', '\]'], ['$$', '$$']]
+        inline = [['\(', '\)'], ['$', '$']]
+
+# --- 导航栏配置 (Menu) ---
+[menu]
+  [[menu.main]]
+    identifier = "tech"
+    name = "Lab (Tech)"
+    url = "/tech/"
+    weight = 10
+  [[menu.main]]
+    identifier = "life"
+    name = "Galaxy (Life)"
+    url = "/life/"
+    weight = 20
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 30
+  [[menu.main]]
+    identifier = "search"
+    name = "Search"
+    url = "/search/"
+    weight = 40
+
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"] # 必须加上 JSON，搜索功能依赖它
