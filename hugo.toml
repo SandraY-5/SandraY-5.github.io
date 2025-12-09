@@ -28,6 +28,13 @@ theme = "PaperMod"
     name = "email"
     url = "https://sandray-5.github.io/about/"
 
+  # --- 新增：强制指定图标位置 ---
+  [params.assets]
+    favicon = "favicon.png"
+    favicon16x16 = "favicon.png"
+    favicon32x32 = "favicon.png"
+    apple_touch_icon = "favicon.png"
+
 
 
 [markup]
