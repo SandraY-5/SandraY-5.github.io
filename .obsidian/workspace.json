@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/search.md",
+                "file": "content/about.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "search"
+              "title": "about"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/search.md",
+                "file": "content/about.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "search 的反向链接列表"
+              "title": "about 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/search.md",
+                "file": "content/about.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "search 的出链列表"
+              "title": "about 的出链列表"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/search.md",
+                "file": "content/about.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "search 的大纲"
+              "title": "about 的大纲"
             }
           }
         ]
@@ -169,11 +169,12 @@
       "bases:创建新数据库": false
     }
   },
-  "active": "5d70053508c60606",
+  "active": "8257bce09db6057d",
   "lastOpenFiles": [
+    "content/search.md",
+    "content/about.md",
     "未命名文件夹",
     "未命名.md",
-    "content/search.md",
     "public/assets/js/search.2826037ddab446009aa4dc907d6f13e5fe42eaff23f43abcba31285b991e9c6d.js",
     "public/assets/js",
     "public/search/index.html",
@@ -184,7 +185,6 @@
     "public/index.json",
     "public/tags/tech/page/1/index.html",
     "public/tags/tech/page/1",
-    "public/tags/tech/page",
     "content/Life/brush-lettering-01/index.md",
     "content/Life/brush-lettering-01/MapChart_Map.png",
     "public/life/brush-lettering-01/MapChart_Map.png"
