@@ -50,9 +50,23 @@ theme = "PaperMod"
     lang = "zh-CN"
 
   # 7. bio
-  [params.homeInfoParams]
-    Title = "Hi there 👋"
-    Content = "Hi, I'm Sandra. Sharing bits of tech and life. Happy you're here."
+  [params.profileMode]
+    enabled = true
+    title = "Sandra"      # 你的名字
+    subtitle = "Sharing bits of tech and life. Happy you're here. 👋"
+    imageUrl = "avatar.jpg" # 这里填文件名
+    imageWidth = 150
+    imageHeight = 150
+    useGravatar = false
+    
+    # 按钮：可以直接把最重要的两个页面放这里
+    [[params.profileMode.buttons]]
+      name = "My Lab (Tech)"
+      url = "/tech/"
+    [[params.profileMode.buttons]]
+      name = "My Life (Gallery)"
+      url = "/life/"
+    
 
   # 8. social Icons
   [[params.socialIcons]]
@@ -61,6 +75,15 @@ theme = "PaperMod"
   [[params.socialIcons]]
     name = "email"
     url = "https://sandray-5.github.io/about/"
+  
+  # 9. cover
+  [params.cover]
+    hidden = false      # 确保不隐藏封面
+    hiddenInList = false # 确保在首页列表中显示封面 (关键!)
+    hiddenInSingle = false # 在文章详情页也显示
+    responsiveImages = true
+
+
 
 [markup]
   [markup.goldmark]

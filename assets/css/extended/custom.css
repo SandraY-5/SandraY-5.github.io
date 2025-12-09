@@ -1,0 +1,48 @@
+:root {
+/* 链接和高亮色：深墨绿 */
+--primary: #5f624e;
+/* 鼠标悬停时的颜色：浅一点的绿 */
+--secondary: #b7b397;
+}
+
+/* =========================================================
+   1. 地基：背景图 (保持不变)
+   ========================================================= */
+body {
+    background-image: url('/background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* 关键：防止主题默认背景色遮挡图片 */
+    background-color: transparent !important; 
+}
+
+/* =========================================================
+   2. 核心逻辑：默认所有页面都是“毛玻璃卡片”
+   (这会覆盖文章页、分类页、归档页)
+   ========================================================= */
+main {
+    background: rgba(255, 255, 255, 0.95); /* 白色底，95%不透明 */
+    backdrop-filter: blur(10px);           /* 毛玻璃模糊 */
+    padding: 40px;                         /* 内边距 */
+    border-radius: 20px;                   /* 圆角 */
+    margin-top: 30px;
+    /* 限制卡片宽度，更精致 */
+    max-width: calc(var(--main-width) + var(--gap) * 2);
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1); /* 阴影 */
+}
+
+/* =========================================================
+   3. 特例：首页 (Home) -> 强制透明
+   (逻辑：如果 main 区域里包含了 .profile 元素，就去掉背景)
+   ========================================================= */
+main:has(.profile) {
+    background: transparent !important;    /* 去掉背景色 */
+    backdrop-filter: none !important;      /* 去掉模糊 */
+    box-shadow: none !important;           /* 去掉阴影 */
+    padding: 0 !important;                 /* 去掉内边距 */
+    margin-top: 60px;                      /* 稍微往下移 */
+}

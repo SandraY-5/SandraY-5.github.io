@@ -1,6 +1,0 @@
-/* 设置全局的代码块 Tab 宽度为 4 */
-code, pre {
-    tab-size: 4;
-    -moz-tab-size: 4; /* 兼容火狐浏览器 */
-    -o-tab-size: 4;   /* 兼容旧版 Opera */
-}

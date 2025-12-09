@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "6aaf8e8c70fcbb30",
+        "id": "4cc84327a69b2312",
         "type": "tabs",
         "children": [
           {
-            "id": "8257bce09db6057d",
+            "id": "03d607794f6f3d1d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/Tech/content-test/index.md",
+                "file": "content/tech/content-test/index.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
               "title": "index"
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/Tech/content-test/index.md",
+                "file": "content/tech/content-test/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/Tech/content-test/index.md",
+                "file": "content/tech/content-test/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/Tech/content-test/index.md",
+                "file": "content/tech/content-test/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -169,35 +169,45 @@
       "bases:创建新数据库": false
     }
   },
-  "active": "8257bce09db6057d",
+  "active": "03d607794f6f3d1d",
   "lastOpenFiles": [
-    "layouts/partials/comments.html",
-    "layouts/comments.html",
-    "public/life/brush-lettering-01/MapChart_Map_hu_852ce702a5342fd2.png",
-    "resources/_gen/images/life/brush-lettering-01/MapChart_Map_hu_852ce702a5342fd2.png",
-    "public/life/brush-lettering-01/MapChart_Map_hu_7684ffb7ae520054.png",
-    "resources/_gen/images/life/brush-lettering-01/MapChart_Map_hu_7684ffb7ae520054.png",
-    "public/life/brush-lettering-01/MapChart_Map_hu_147bdcfb230c25e6.png",
-    "resources/_gen/images/life/brush-lettering-01/MapChart_Map_hu_147bdcfb230c25e6.png",
-    "public/life/brush-lettering-01/MapChart_Map_hu_859cf428f917ac8c.png",
-    "public/life/brush-lettering-01/MapChart_Map_hu_d2a0d74262478eac.png",
-    "resources/_gen/images/life/brush-lettering-01/MapChart_Map_hu_d2a0d74262478eac.png",
-    "resources/_gen/images/life/brush-lettering-01/MapChart_Map_hu_859cf428f917ac8c.png",
-    "resources/_gen/images/life/brush-lettering-01",
-    "resources/_gen/images/life",
-    "resources/_gen/images",
-    "resources/_gen",
-    "resources",
-    "assets/custom.css",
-    "assets/css/extended",
-    "assets/css",
+    "public/assets/css/stylesheet.9a5029e421bc3ce156d58820ebcb4b9fae04dcc06dcc0d9cd3f70f1e77d1c731.css",
+    "public/assets/css/stylesheet.4bc687fb2b99e9ca6519474fa3909d8c54f4768833894dfd50cee3ba60f94b46.css",
+    "public/assets/css/stylesheet.13d4da1c40abc91d7f09853becb46d24457997cc813929161284f09f5dc0d292.css",
+    "public/assets/css/stylesheet.c8803ee7af8bb2aef361be6d7fc19c972613df98f423ee871a36510878ae39d1.css",
+    "public/assets/css/stylesheet.f92f413dd117224a5dc1d8507a88db4efb913d83282c1892ce4123c074681425.css",
+    "public/assets/css/stylesheet.381ab8a62ae97190e4a4f58af5e5e3801697a955bfa244520e5f7bb5c30eade5.css",
+    "public/assets/css/stylesheet.96be5ba70aab1adc8beae4e302449052a775bb38577f4d95209e50bc81c4d25b.css",
+    "public/assets/css/stylesheet.b792dead00a8b6fba3695b6a0edc346ef541eb0d8dc3523450e70f6c5c02c26e.css",
+    "public/assets/css/stylesheet.50b8647982a4f082406579ad70390f1b5be06b082cf403ca3b07affda426cc39.css",
+    "public/assets/css/stylesheet.9d53c57f018b4b732f1ee5c14b0842f1dbd7b31f6e81f5dfa22bdfda660f013f.css",
+    "public/assets/css/stylesheet.6ae3e77fd697c01a8d3a96fe9c7da64c68ccd7dc9ab8faab44b666b3d0108613.css",
+    "public/background.jpg",
+    "static/background.jpg",
+    "public/R0003504.JPG",
+    "static/R0003504.JPG",
+    "public/Sandra's Galaxy_files/MapChart_Map.png",
+    "static/Sandra's Galaxy_files/MapChart_Map.png",
+    "public/avatar.jpg",
+    "static/avatar.jpg",
+    "public/IMG_1009.jpg",
+    "static/IMG_1009.jpg",
+    "content/tech/hello-world/index.md",
+    "content/tech/content-test/index.md",
+    "content/tech/test-final/index.md",
+    "content/tech/template-test/index.md",
+    "content/life/test-final/index.md",
+    "content/life/brush-lettering-01/index.md",
+    "archetypes/default.md",
+    "content/Tech/test-math/index.md",
+    "archetypes/life.md",
+    "archetypes/tech.md",
+    "content/tech/obsidian-template/index.md",
+    "content/life/weekend-picnic/index.md",
+    "templates/Hugo-Post-Template.md",
+    "content/Tech/linear-regression/index.md",
     "content/search.md",
     "content/archives.md",
-    "content/about.md",
-    "public/archives/index.html",
-    "content/Tech/content-test/index.md",
-    "content/Tech/hello-world/index.md",
-    "未命名.md",
-    "content/Life/brush-lettering-01/index.md"
+    "content/about.md"
   ]
 }

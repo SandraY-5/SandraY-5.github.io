@@ -11,6 +11,6 @@ cover:
   relative: true
 ---
 
-这是一个中国地图，我想用来测试在文章中添加图片是不是会添加到对应文件夹下面。
+这个logo还挺有意思
 
-![](MapChart_Map.png)
+![](Gemini_Generated_Image_o77phco77phco77p.png)
