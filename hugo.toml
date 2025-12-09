@@ -1,6 +1,6 @@
 baseURL = 'https://sandray-5.github.io/'
 languageCode = 'en-us'
-title = 'Sandra's Galaxy'
+title = "Sandra's Galaxy"
 theme = "PaperMod"
 
 # 配置
@@ -48,12 +48,12 @@ theme = "PaperMod"
 [menu]
   [[menu.main]]
     identifier = "tech"
-    name = "Lab (Tech)"
+    name = "Lab"
     url = "/tech/"
     weight = 10
   [[menu.main]]
     identifier = "life"
-    name = "Galaxy (Life)"
+    name = "Life"
     url = "/life/"
     weight = 20
   [[menu.main]]
